@@ -1,0 +1,215 @@
+body,html{
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+	font-family:"微软雅黑";
+	  
+}
+/* 登录页面的设置 */
+ .bgimg{
+ 	width:100%;
+ 	height:100%;	
+ 	background:url('../images/login_background.jpg') no-repeat;
+    background-size:cover;
+    position:relative;
+ }
+.login{
+	width:460px;
+	height:430px;
+	background-color:white;
+    border-top:1px solid red;
+    position:absolute;
+    bottom: 250px;
+    right:200px;
+    display:flex;
+}
+.form{
+	width:420px;
+	height:380px;
+	margin:auto;	
+}
+.top{
+	width:200px;
+	height:50px;
+	display:flex;
+	position:relative;	
+}
+.line{
+	width:5px;
+	height:20px;
+	background-color:#e8868b;
+	position:absolute;
+	top:15px;   
+}
+.text{
+    width:100px;	
+	height:50px;
+	font-size:16px;
+	font-weight:bold;
+	margin-left:20px;
+	line-height:50px;
+}
+/* 用户名输入框 */
+.user-ul{
+	width:100%;
+	display:flex;
+}
+.user-li1{
+    width:15%;	
+    height:50px;
+    border:1px solid #a94442;
+	border-radius:5px 0 0 5px;
+	box-sizing:border-box;
+	text-align:center;
+	background-color:#f2dede;
+}
+.user-li1 .icon{
+	font-size:30px;
+	line-height:50px;
+	color:#a94442;
+}
+.user-li2{
+	width:85%;
+	height:50px;
+}
+.user-li2 input{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;	
+	border:1px solid #a94442;
+	border-left:none;
+	border-radius:0 5px 5px 0;
+	text-indent:20px;
+	font-size:20px;
+
+}
+.form p ,.register-form p{
+   width:100%;
+   height:20px;
+   margin-bottom:20px;
+   color:#b05449;
+}
+
+
+/* 验证码输入框 */
+.authcode-ul{
+	width:100%;
+	display:flex;
+}
+.authcode-li1{
+	width:35%;
+	height:50px;
+}
+
+.authcode-li1 input{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	border-right:none;
+	border:1px solid #a94442;
+	border-radius:5px 0 0 5px;
+	text-indent:20px;
+	font-size:20px;
+}
+.authcode-li2{
+    width:30%;	
+    height:50px;
+    border:1px solid #a94442;
+	border-radius:0 5px 5px 0;
+	box-sizing:border-box;
+	text-align:center;
+	background-color:#f2dede;
+	border-left:none;
+	font-size:25px;
+	color:skyblue;
+	line-height:50px;
+}
+
+.authcode-li3{
+    width:35%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+/* 登陆按钮 */
+.login-btn li{
+	width:100%;
+	height:45px;
+}
+.login-btn input{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	border:1px solid #a94442;
+	border-radius:5px;	
+	font-size:20px;
+    background-color:#e2454e;
+    color:white;
+}
+/* 用户注册 忘记密码 */
+.last-ul{
+	display:flex;
+	justify-content:space-between;
+}
+
+
+
+/* 用户注册界面 */
+.register{
+	width:460px;
+	height:550px;
+	background-color:white;
+    border-top:1px solid red;
+    position:absolute;
+    bottom: 200px;
+    right:200px;
+    display:flex;
+}
+.register-form{
+	width:420px;
+	height:500px;
+	margin:auto;	
+}
+/* 注册界面验证码 */
+.auth-li2{
+	width:30%;
+	height:50px;
+}
+
+.auth-li2 input{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	border-right:none;
+	border:1px solid #a94442;
+	border-radius:0 5px 5px 0;
+	text-indent:20px;
+	font-size:20px;
+}
+
+.auth-li3{
+	width:40%;
+	height:50px;
+} 
+.auth-li3 input{
+	width:80%;
+	height:100%;
+	background-color:#ec868c;
+	border-radius:8px;
+    color:white;
+	margin-left:10%;
+	font-size:15px;
+}
+
+.auth-li4{
+	width:15%;
+	height:40px;
+	border:1px solid #a94442;
+	border-radius:5px;
+	background-color:gray;
+	margin-top:5px;
+	font-size:15px;
+	line-height:40px;
+	text-align:center;
+}

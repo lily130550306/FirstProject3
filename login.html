@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录界面</title>	
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="icon/iconfont.css">
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/callback.css">
+
+	<script src="js/login-register.js"></script>	
+</head>
+<body>
+
+  <div class="bgimg">
+	  <div class="login">
+	  	<form action="index.html" class="form" onsubmit="return checklogin()">
+	  	    <!--用户登录标题-->
+		  	<ul class="top">
+		  	    <li><div class="line"></div></li>
+		  		<li class="text">用户登录</li>	  		
+		  	</ul>
+		  	<!-- 用户名 -->
+		  	<ul class="user-ul">
+		  		<li class="user-li1" id="usernameli1"> 
+		  		   <i class="icon iconfont icon-head" id="usernameIcon"></i>
+		  		</li>
+		  		<li class="user-li2"><input type="text" placeholder="用户名" id="usernameInput" onblur="checkUsername()"></li>
+		  	</ul>
+		  	<p  id="usernameInfo">用户名必须填写</p>
+
+
+		  	<!-- 密码 -->
+		  	<ul class="user-ul">
+		  		<li class="user-li1" id="userpswli1"> 
+		  		    <i class="icon iconfont icon-password" id="userpswIcon"></i>
+		  		</li>
+		  		<li class="user-li2"><input type="password" placeholder="密码"  id="userpswInput" onblur="checkUserpsw()"></li>
+		  	</ul>
+		  	<p id="userpswInfo">密码必须填写</p>
+
+
+		  	<!-- 验证码 -->
+		  	<ul class="authcode-ul">
+		  	    <li class="user-li1" id="codeli1"><i class="icon iconfont icon-weibiaoti1" id="codeIcon"></i> 
+		  		</li>  
+		  	    <li class="auth-li2" ><input type="text" placeholder="验证码" id="codeInput" onblur="checkCode()"></li>
+
+		  		<li  class="auth-li3"><input type="button" value="获取验证码" id="codeBtn"  onclick="getCode()"></li>
+		  		<li class="auth-li4" id="randomcode"></li>
+		  	</ul>
+		  	<p id="codeInfo">验证码必须填写</p>
+
+
+		  	<!-- 登陆按钮 -->
+		  	<ul class="login-btn">
+		  	  <li><input type="submit" value="登录" onsubmit="return checkLogin()" ></li>
+		  	</ul>
+		  	<!-- 用户注册 忘记密码 -->
+		  	<ul class="last-ul">
+		  		<li>
+		  		   <a href="register.html">用户注册</a>
+		  		</li>
+		  		<li>
+		  		  <a href="#">忘记密码？</a>
+		  		</li>
+		  		
+		  	</ul>
+	    </form>
+	  </div>  
+  </div>
+	
+</body>
+</html>

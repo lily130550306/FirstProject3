@@ -1,0 +1,30 @@
+/* js中调用的css */
+.error{
+   color:#b05449;
+}
+.correct{
+   color:green;
+}
+
+.icon-error{
+	width:15%;	
+    height:50px;
+    border:1px solid #a94442;
+	border-radius:5px 0 0 5px;
+	box-sizing:border-box;
+	text-align:center;
+	background-color:#f2dede;
+
+}
+.icon-correct{
+    width:15%;	
+    height:50px;
+    border:1px solid green;
+    border-right:none;
+	border-radius:5px 0 0 5px;
+	box-sizing:border-box;
+	text-align:center;
+	background-color:#dff0d8;
+}
+
+
